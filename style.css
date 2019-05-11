@@ -10,11 +10,11 @@
   clear: both;
 }
 main {
-	width: 960px;
+	width: 966px;
 	margin: 50px auto;
 }
 .blog-box{
-	border: solid;
+	border: solid 1px;
 	float: left;
 	margin-right: 30px;
 	padding: 10px 10px;
@@ -39,7 +39,7 @@ main {
 	float: left;
 }
 .blog-box2 {
-	border: solid;
+	border: solid 1px;
 	float: left;
 	margin-right: 30px;
 	padding: 10px 10px;
@@ -60,9 +60,8 @@ main {
 	color: black;
 }
 .blog-box3 {
-	border: solid;
+	border: solid 1px;
 	float: left;
-	margin-right: 30px;
 	padding: 10px 10px;
 }
 .blog-check3 {
@@ -79,4 +78,22 @@ main {
 .blog-item3 {
 	color: black;
 	text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+	main {
+		width: 90%;
+		margin: 50px auto;
+	}
+	.blog-box {
+		margin-bottom: 20px;
+		float: none;
+	}
+	.blog-box2 {
+		margin-bottom: 20px;
+		float: none;
+	}
+	.blog-box3 {
+		float: none;
+	}
 }

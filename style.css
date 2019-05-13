@@ -24,6 +24,7 @@ main {
 .blog {
 	background-image: url(img/flow01.png);
 	background-size: cover;
+	background-position: center;
 	height: 150px;
 	width: 280px;
 	margin-bottom: 10px;
@@ -53,6 +54,7 @@ main {
 .blog2 {
 	background-image: url(img/flow02.png);
 	background-size: cover;
+	background-position: center;
     height: 150px;
     width: 280px;
     margin-bottom: 10px;
@@ -74,6 +76,7 @@ main {
 .blog3 {
 	background-image: url(img/flow03.png);
 	background-size: cover;
+	background-position: center;
 	height: 150px;
 	width: 280px;
 	margin-bottom: 10px;
@@ -84,22 +87,37 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-	body {
-		margin: 0 auto;
-	}
 	main {
-		width: 90%;
+		width: 100%;
 		margin: 50px auto;
 	}
 	.blog-box {
+		width: 100%;
 		margin-bottom: 20px;
+		margin-right: 0;
 		float: none;
+		margin: auto;
 	}
 	.blog-box2 {
+		width: 100%;
 		margin-bottom: 20px;
+		margin-right: 0;
 		float: none;
+		margin: auto;
 	}
 	.blog-box3 {
+		width: 100%;
+		margin-bottom: 50px;
+		margin-right: 0;
 		float: none;
+		margin: auto;
 	}
+    .blog {
+		width: auto;
+	}
+	.blog2 {
+		width: auto;
+	}
+	.blog3 {
+		width: auto;
 }
